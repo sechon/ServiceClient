@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1b4236e9-9f5c-4f78-a9e2-9ddd6f8cf6bd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:53995/ShowTrackerServices.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ShowTrackerServices.xsd" MetadataType="Schema" ID="c7fd356b-3522-44c0-a52b-11acc65d2c8c" SourceId="1" SourceUrl="http://localhost:53995/ShowTrackerServices.svc?xsd=xsd0" />
+    <MetadataFile FileName="ShowTrackerServices1.xsd" MetadataType="Schema" ID="ca243e0d-e9dd-4100-a17c-13d8c9abdb29" SourceId="1" SourceUrl="http://localhost:53995/ShowTrackerServices.svc?xsd=xsd3" />
+    <MetadataFile FileName="ShowTrackerServices.wsdl" MetadataType="Wsdl" ID="7f2ccf50-4fe8-4cf0-9140-f328ecf36d95" SourceId="1" SourceUrl="http://localhost:53995/ShowTrackerServices.svc?wsdl" />
+    <MetadataFile FileName="ShowTrackerServices2.xsd" MetadataType="Schema" ID="bd1f46a9-2775-48f8-95b3-12d8a09b50b0" SourceId="1" SourceUrl="http://localhost:53995/ShowTrackerServices.svc?xsd=xsd2" />
+    <MetadataFile FileName="ShowTrackerServices.disco" MetadataType="Disco" ID="5bdb53f0-c904-4325-aaf3-b9977239e09e" SourceId="1" SourceUrl="http://localhost:53995/ShowTrackerServices.svc?disco" />
+    <MetadataFile FileName="ShowTrackerServices3.xsd" MetadataType="Schema" ID="5c77cc5a-c030-4962-afa4-e59341cf7815" SourceId="1" SourceUrl="http://localhost:53995/ShowTrackerServices.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
